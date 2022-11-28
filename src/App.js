@@ -1,22 +1,25 @@
 import {
-  Ad,
-  Countries,
+  CreateAdPage,
   Footer,
   Header,
-  NumbersList,
-  Search,
+  HomePage,
+  ProfilePage,
 } from "./components"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 function App() {
   return (
-    <main className="">
-      <Header />
-      <Search />
-      <Ad />
-      <NumbersList />
-      <Countries />
-      <Footer />
-    </main>
+    <>
+      <Router>
+        <Header />
+        <Routes>
+          <Route element={<HomePage />} path="/" />
+          <Route element={<CreateAdPage />} path="/create-ad" />
+          <Route element={<ProfilePage />} path="/profile/:id" />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   )
 }
 

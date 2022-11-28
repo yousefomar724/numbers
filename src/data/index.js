@@ -45,3 +45,18 @@ export const countries = [
   { id: 21, name: "جيبوتي", img: img21 },
   { id: 22, name: "جزر القمر", img: img22 },
 ]
+
+export const numbers = [
+  { id: 1, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 2, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 3, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 4, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 5, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 6, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 7, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 8, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 9, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 10, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 11, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 12, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+]
