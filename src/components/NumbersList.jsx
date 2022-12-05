@@ -15,7 +15,7 @@ const NumbersList = () => {
       {numberOfCards < numbers.length && (
         <button
           className="lg:flex items-center gap-2 py-2 px-20 bg-main text-white mx-auto my-4 opacity-90 hover:opacity-100 transition hidden text-xl"
-          onClick={() => setNumberOfCards((prev) => prev + 2)}
+          onClick={() => setNumberOfCards((prev) => prev + 6)}
         >
           <AiOutlineArrowDown />
           تحميل المزيد <AiOutlineArrowDown />
