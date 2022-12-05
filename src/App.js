@@ -1,11 +1,8 @@
-import {
-  CreateAdPage,
-  Footer,
-  Header,
-  HomePage,
-  ProfilePage,
-} from "./components"
+import { Footer, Header } from "./components"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
+import CreateAd from "./pages/CreateAd"
+import Profile from "./pages/Profile"
 
 function App() {
   return (
@@ -13,9 +10,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route element={<HomePage />} path="/" />
-          <Route element={<CreateAdPage />} path="/create-ad" />
-          <Route element={<ProfilePage />} path="/profile/:id" />
+          <Route element={<Home />} path="/" />
+          <Route element={<CreateAd />} path="/create-ad" />
+          <Route element={<Profile />} path="/profile/:id" />
         </Routes>
         <Footer />
       </Router>

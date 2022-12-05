@@ -6,7 +6,6 @@ const Header = () => {
   return (
     <div className="bg-main p-4">
       <div className="flex justify-between items-center  max-w-6xl mx-auto">
-        <AiOutlineMenu className="text-4xl text-white cursor-pointer lg:hidden" />
         <div className="flex items-center gap-2 cursor-pointer">
           <span className="p-1 w-10 h-10 rounded-full border-2 border-[#f6d900] flex items-center justify-center">
             <MdPhoneInTalk className="text-[#f6d900] text-3xl transform translate-y-0.5 -translate-x-0.5" />

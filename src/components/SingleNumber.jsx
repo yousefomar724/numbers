@@ -13,7 +13,7 @@ const SingleNumber = ({ item }) => {
         <h3 className="text-gray-900 font-bold">{item.name}</h3>
         <p className="text-gray-600">{item.country}</p>
         <Link
-          to={`/profile/${item + 1}`}
+          to={`/profile/${item.id}`}
           className="py-2 px-6 self-end rounded-lg bg-main text-white outline-none text-sm focus:outline-none"
         >
           تواصل معي
