@@ -1,6 +1,7 @@
 import { Ad } from "../components"
 import { useForm } from "react-hook-form"
 import { countries, states } from "../data"
+import bg from "../img/bg.jpg"
 
 const CreateAd = () => {
   const {
@@ -15,7 +16,7 @@ const CreateAd = () => {
     reset()
   }
   return (
-    <div className="px-4">
+    <div className="w-full px-4" style={{ backgroundImage: `url(${bg})` }}>
       <Ad />
       <form
         onSubmit={handleSubmit(onSubmit)}
@@ -116,24 +117,6 @@ const CreateAd = () => {
                   </small>
                 )}
               </div>
-              {/* <div className="w-full flex flex-col gap-1">
-                <label htmlFor="gender">الجنس:</label>
-                <input
-                  type="text"
-                  className={`border ${
-                    errors.gender ? "border-red-500" : ""
-                  } outline-none p-2 rounded-md`}
-                  {...register("gender", {
-                    required: { value: true, message: "هذا الحقل مطلوب" },
-                  })}
-                  placeholder="الجنس..."
-                />
-                {errors.gender && (
-                  <small className="text-red-500 text-xs">
-                    {errors.gender.message}
-                  </small>
-                )}
-              </div> */}
               <div className="flex flex-col w-full gap-1">
                 <label htmlFor="gender">الجنس:</label>
                 <select

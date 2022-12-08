@@ -3,7 +3,7 @@ import placeholder from "../img/img.jpg"
 
 const SingleNumber = ({ item }) => {
   return (
-    <div className="flex items-center gap-2 border font-cairo py-1 pr-1 pl-4 lg:w-[377px]">
+    <div className="flex items-center gap-2 border font-cairo py-1 pr-1 pl-4 lg:w-[377px] bg-white">
       <img
         src={item.img || placeholder}
         alt={item.name}

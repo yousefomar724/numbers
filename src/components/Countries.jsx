@@ -3,7 +3,7 @@ import Country from "./Country"
 
 const Countries = () => {
   return (
-    <section className="max-w-6xl mx-auto border p-2 border-main mb-4 hidden md:flex md:flex-col md:px-4">
+    <section className="max-w-6xl mx-auto border p-2 border-main mb-4 bg-gray-100 hidden md:flex md:flex-col md:px-4">
       <h2 className="text-center mt-4 mb-8 text-2xl font-semibold">
         تصنيفات الموقع حسب الدول
       </h2>

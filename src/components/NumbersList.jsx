@@ -8,6 +8,7 @@ const NumbersList = ({ searchQuery }) => {
   const filteredNumbers = numbers.filter((num) =>
     num.name.includes(searchQuery)
   )
+
   return (
     <div className="mb-6 max-w-6xl mx-auto px-4 lg:px-0">
       <div className="flex flex-col justify-center p-1 flex-wrap lg:flex-row gap-1 border lg:border-none border-main">
@@ -23,7 +24,7 @@ const NumbersList = ({ searchQuery }) => {
       </div>
       {numberOfCards < numbers.length && (
         <button
-          className="flex items-center gap-2 py-2 px-20 bg-main text-white mx-auto my-4 opacity-90 hover:opacity-100 transition text-xl"
+          className="flex items-center gap-2 py-2 px-20 bg-main text-white mx-auto my-4 opacity-90 hover:opacity-100 transition text-lg md:text-xl"
           onClick={() => setNumberOfCards((prev) => prev + 6)}
         >
           <AiOutlineArrowDown />
