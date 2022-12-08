@@ -5,6 +5,7 @@ import CreateAd from "./pages/CreateAd"
 import Profile from "./pages/Profile"
 import PrivacyAndPolicy from "./pages/PrivacyAndPolicy"
 import TermsAndConditions from "./pages/TermsAndConditions"
+import Contact from "./pages/Contact"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route element={<Profile />} path="/profile/:id" />
         <Route element={<PrivacyAndPolicy />} path="/privacy-policy" />
         <Route element={<TermsAndConditions />} path="/terms-conditions" />
+        <Route element={<Contact />} path="/contact" />
       </Routes>
       <Footer />
     </Router>
