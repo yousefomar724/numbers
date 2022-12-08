@@ -1,11 +1,13 @@
+import { useState } from "react"
 import { Search, Ad, NumbersList, Countries } from "../components/index"
 
 const Home = () => {
+  const [searchQuery, setSearchQuery] = useState("")
   return (
     <>
-      <Search />
+      <Search searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
       <Ad />
-      <NumbersList />
+      <NumbersList searchQuery={searchQuery} />
       <Countries />
     </>
   )

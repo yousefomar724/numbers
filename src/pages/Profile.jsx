@@ -17,7 +17,7 @@ const Profile = () => {
           {profileData?.name}
         </h2>
         <div className="flex flex-col md:flex-row items-center p-2 bg-[#f7f4f4] gap-2">
-          <img src={img} alt="default girl image" className="" />
+          <img src={img} alt="default girl" className="" />
           <div className="w-full flex flex-col gap-2">
             <div className="flex py-2 px-4 bg-white items-center justify-between md:justify-start md:gap-8">
               <p className="">الاسم: سهام</p>

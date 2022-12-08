@@ -45,10 +45,15 @@ export const countries = [
   { id: 21, name: "جيبوتي", img: img21 },
   { id: 22, name: "جزر القمر", img: img22 },
 ]
+export const states = [
+  { id: 1, name: "عازب(ة)" },
+  { id: 2, name: "مطلق(ة)" },
+  { id: 3, name: "أرمل(ة)" },
+]
 
 export const numbers = [
   { id: 1, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
-  { id: 2, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
+  { id: 2, name: "امل من القاهرة", country: "المغرب", img: "" },
   { id: 3, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
   { id: 4, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
   { id: 5, name: "سهام من الدار البيضاء", country: "المغرب", img: "" },
